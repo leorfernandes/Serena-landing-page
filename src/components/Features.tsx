@@ -9,7 +9,7 @@ export default function Features() {
       <h2 className="text-5xl text-gray-800 mb-8 font-['Great_Vibes']">What Serena Offers</h2>
       <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
         {/* Feature 1 */}
-        <div className="relative bg-emerald-200 rounded-3xl p-8 flex flex-col items-center overflow-hidden">
+        <div className="relative bg-emerald-200 rounded-3xl p-8 flex flex-col items-center overflow-hidden shadow-xl">
           <div className="absolute inset-0 bg-[url('/assets/images/background-pattern-1.jpg')] bg-cover bg-center opacity-25 pointer-events-none" />
           <div className="relative z-10">
             <div className="text-4xl mb-2">🧘</div>
@@ -23,7 +23,7 @@ export default function Features() {
         </div>
 
         {/* Feature 2 */}
-        <div className="relative bg-emerald-300 rounded-3xl p-8 flex flex-col items-center overflow-hidden">
+        <div className="relative bg-emerald-300 rounded-3xl p-8 flex flex-col items-center overflow-hidden shadow-xl">
           <div className="absolute inset-0 bg-[url('/assets/images/background-pattern-2.jpg')] bg-cover bg-center opacity-25 pointer-events-none" />
           <div className="relative z-10">
             <div className="text-4xl mb-2">🌬️</div>
@@ -37,7 +37,7 @@ export default function Features() {
         </div>
 
         {/* Feature 3 */}
-        <div className="relative bg-emerald-200 rounded-3xl p-8 flex flex-col items-center overflow-hidden">
+        <div className="relative bg-emerald-200 rounded-3xl p-8 flex flex-col items-center overflow-hidden shadow-xl">
           <div className="absolute inset-0 bg-[url('/assets/images/background-pattern-3.jpg')] bg-cover bg-center opacity-25 pointer-events-none" />
           <div className="relative z-10">
             <div className="text-4xl mb-2">🌙</div>

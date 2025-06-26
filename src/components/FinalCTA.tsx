@@ -9,14 +9,15 @@ export default function FinalCTA() {
 
           with
           {' '}
-          <span className="text-violet-400 hover:text-violet-700 transition-colors duration-500">Serena</span>
+          <span className="text-violet-400 hover:text-violet-700 transition-colors duration-300">Serena</span>
           {' '}
           today
         </h2>
         <button
           type="button"
-          className="mt-8 px-6 py-3 bg-violet-400 hover:bg-violet-700 text-white text-lg rounded-full cursor-pointer focus:outline-none focus:ring-4 focus:ring-violet-300"
+          className="mt-8 px-6 py-3 bg-violet-400 hover:bg-violet-700 text-white text-lg rounded-full cursor-pointer focus:outline-none focus:ring-4 focus:ring-violet-300 transition-colors duration-500 relative overflow-hidden"
         >
+          <div className="absolute left-0 top-0 w-full h-1/2 bg-gradient-to-b from-violet-200 via-transparent to-transparent"></div>
           Start Now
         </button>
       </div>

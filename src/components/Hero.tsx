@@ -32,8 +32,20 @@ export default function Hero() {
       </div>
 
       <div className="text-center max-w-3xl font-['Quicksand']">
-        <button className="mt-6 px-40 py-3 bg-violet-400 hover:bg-violet-700 text-white text-2xl rounded-full" type="button">
-          Start Now
+        <button
+          className="
+        mt-6 px-8 py-4
+        bg-violet-400 hover:bg-violet-700
+        transition-colors duration-500
+        text-white text-2xl
+        rounded-full
+        relative
+        overflow-hidden
+        "
+          type="button"
+        >
+          <div className="absolute left-0 top-0 w-full h-1/2 bg-gradient-to-b from-violet-200 via-transparent to-transparent"></div>
+          START NOW
         </button>
       </div>
     </section>

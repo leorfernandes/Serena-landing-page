@@ -1,19 +1,16 @@
 export default function Footer() {
   return (
     <footer className="bg-white px-6 py-10 font-['Quicksand']">
-      <div className="max-w-6xl mx-auto md:grid md:grid-cols-3 gap-8 text-gray-500 text-base">
-        <p className="flex items-center justify-center md:justify-start">
-          By Leo Fernandes
-        </p>
-
-        <div className="flex flex-col items-center justify-center text-center text-violet-400/70 font-['Great_Vibes'] text-xl">
+      <div className="max-w-6xl mx-auto flex flex-col items-center justify-center gap-4 text-gray-500 text-base text-center md:grid md:grid-cols-2">
+        <p className="text-violet-400/25 hover:text-violet-700/25 font-['Great_Vibes'] text-5xl">
           Serena
-          <p className="text-gray-500 text-sm font-sans mt-1 max-w-xs">
-            This is a mockup page, not a real product or service
-          </p>
-        </div>
-
-        <div className="flex flex-col items-center md:items-end justify-center space-y-3">
+        </p>
+        <p>
+          Made with care
+          <br />
+          by Leo Fernandes
+        </p>
+        <div className="flex flex-col items-center justify-center space-y-3">
           <a
             href="http://linkedin.com/in/leonardodosreisfernandes"
             target="_blank"
@@ -50,6 +47,9 @@ export default function Footer() {
             GitHub
           </a>
         </div>
+        <p className="text-gray-500 text-sm font-sans mt-1 max-w-xs md:flex md:items-center">
+          This is a mockup page, not a real product or service
+        </p>
       </div>
     </footer>
   );
